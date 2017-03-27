@@ -1,0 +1,129 @@
+/* Put your css in here */
+body {
+    background-color: #e8e8e8;
+    margin: 0px;
+    min-height: 100%;
+    font-family: sans-serif;
+}
+html {
+  min-height: 100%;
+}
+
+.link-hide{
+  display: none;
+}
+
+.ui-grid-cell-contents {
+white-space: normal !important;
+}
+.ui-grid-cell{
+  height: auto !important;
+}
+  .btn {
+      display: inline-block;
+      padding: 6px 12px;
+      margin-bottom: 0;
+      font-size: 14px;
+      font-weight: normal;
+      line-height: 1.42857143;
+      text-align: center;
+      white-space: nowrap;
+      vertical-align: middle;
+      cursor: pointer;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+      user-select: none;
+      background-image: none;
+      border: 1px solid transparent;
+      border-radius: 4px;
+  }
+.text-center {
+  text-align: center;
+}
+  .btn-success {
+      color: #fff;
+      background-color: #5cb85c;
+      border-color: #4cae4c;
+  }
+
+.btn {
+  min-width: 120px;
+  height: 50px;
+  font-size: 14px;
+  text-transform: uppercase;
+    font-weight: 700;
+        box-shadow: 0 3px 5px rgba(0, 0, 0, .125);
+text-decoration: none;
+
+}
+.btn-blue {
+      background-color: #00a4e7;
+      color: #fff;
+}
+label.btn {
+  padding-top: 15px;
+box-sizing: border-box;
+margin-right: 20px;
+}
+.btn-pink {
+  background-color: #ab1f8e;
+  color: #fff;
+  box-sizing: border-box;
+    padding-top: 14px;
+
+
+}
+.form-group > input
+  {
+      display: none;
+  }
+
+
+.form-group{
+    padding:27px;
+}
+
+.image-wrapper{
+  background: brown;
+  padding: 15px;
+  position: relative;
+}
+
+.printLogo{
+  width: 140px;
+}
+
+.slogan{
+  position: absolute;
+      top: 50%;
+      margin-top: -10.5px;
+      font-size: 18px;
+      left: 175px;
+      color: #fff;
+
+}
+
+
+
+.fileinput-button {
+    position: relative;
+    overflow: hidden;
+}
+
+.fileinput-button input {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 0;
+    opacity: 0;
+    -ms-filter:'alpha(opacity=0)';
+    font-size: 200px;
+    direction: ltr;
+    cursor: pointer;
+}
+.carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+      width: 30%;
+      margin: auto;
+  }
